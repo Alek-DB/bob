@@ -11,7 +11,7 @@ class Alien{
                 this.count++
                 clicker.value = this.count
     
-                this.y = 300
+                this.y = 400
                 this.node.style.top = this.y + "px"
                 this.x = Math.random() * 500
                 this.node.style.left = this.x + "px"
